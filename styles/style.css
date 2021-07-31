@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 body{
-  text-align: center;
-  background-color: aqua;
+  
 }
 .logo{
-  text-align: center;
+  text-align: left;
+}
+.menu-links{
+  text-align: right;
+  margin-bottom: 200px;
+  display: inline;
+  position: relative;
+  background-color: aqua;
 }
