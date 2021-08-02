@@ -76,6 +76,7 @@ hr {
 }
 .link:hover{
   color: azure;
+  
 }
 
 .navigation ul {
@@ -102,11 +103,6 @@ hr {
 .image{
   text-align: center;
 }
-.btn1:hover{
-  transform: scale(1,2);
-  background-color:var(--secondary);
-
-}
 /* sections */
 section {
   padding: 2rem 0.5rem;
@@ -118,12 +114,23 @@ section h2 {
 }
 
 section.gray {
-  background-color: var(--dark-gray);
+  background-color: #073b4c;
   color: var(--white);
 }
 .project{
-  background-color: aqua;
+  background-color: #eddcd2;
+    text-align: center;
+}
+.project2{
   text-align: center;
+  background-color: blanchedalmond;
+}
+.Blogs{
+  text-align: center;
+}
+.Blogs1{
+  text-align: center;
+  background-color: blanchedalmond;
 }
 
 /* footer */
@@ -152,4 +159,17 @@ footer ul li a {
 }
 .list-inline li{
   display: inline;
+  padding:1rem;
+}
+@media only screen and (max-width: 425px) {
+  .list-inline li {
+    display: block;
+    padding: 0 0.2rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  li {
+    color: var(--color-white);
+    font-size: 1rem;
+  }
 }
